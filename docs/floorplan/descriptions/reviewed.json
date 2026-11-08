@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.py": {
+      "name": "Flask application and root handler",
+      "description": "Creates a Flask app, defines GET / returning a constant JSON welcome object, and starts a debug development server when launched directly."
+    },
+    "README.md": {
+      "name": "Owner usage guide",
+      "description": "Describes the application and manual Python setup; it is not evidence of runtime success."
+    },
+    "LICENSE": {
+      "name": "Original project license",
+      "description": "Preserves the original MIT permission and copyright notice."
+    }
+  },
+  "routes": {
+    "GET /": {
+      "name": "Root response",
+      "description": "Returns a constant welcome JSON object through jsonify; no database, authentication or external API is involved."
+    }
+  }
+}

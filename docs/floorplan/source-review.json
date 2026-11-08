@@ -1,0 +1,27 @@
+{
+  "repository": "Raleighite/flask",
+  "source_commit": "1a2299ea0679747e691600d3a6c6f8ff7d07ce0f",
+  "public_source_only_review": "Reviewed prose derives only from pinned public repository source; no private operator/profile facts or internal links. Parent independent publication review pending.",
+  "original_files": 6,
+  "original_bytes": 4258,
+  "omissions": [
+    {
+      "path": ".gitignore",
+      "bytes": 2290,
+      "reason": "excluded-tree-or-hidden"
+    },
+    {
+      "path": "Procfile",
+      "bytes": 23,
+      "reason": "extension-filter"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 112,
+      "reason": "extension-filter"
+    }
+  ],
+  "admission": "All executable application files admitted unchanged; omitted launch/dependency text remains freshness-pinned.",
+  "runtime_verification": false,
+  "route_review": "Only direct root Flask routes where declared; other programs contain no inbound server dispatch. Scanner symbol extraction is heuristic, including commented sketches; prose identifies inactive drafts."
+}
